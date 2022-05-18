@@ -1,0 +1,201 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar img{
+    width: 80%;
+}
+.navbar{
+    border-bottom: 10px solid #e5a572;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #e5a572;
+}
+.btn-outline-success{
+    padding: 0px 25px;
+    margin: 0px 20px;
+    color: #e5a572;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.btn-connexions{
+    margin-right: 70px;
+    margin-left: auto;
+    display: flex;
+}
+
+/*********SECTION 1**************/
+#section-1{
+    background-image: url(img/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid #e5a572;
+}
+.carousel-item{
+    width: 800px;
+}
+.carousel-inner img{
+    margin-top: 100px;
+    border-style: groove;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    color: #e5a572;
+    padding: 0px 150px;
+    text-shadow: 5px 5px black;
+}
+.texte-intro{
+    padding: 25px 150px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: rgba(100, 99, 99, 0.55);
+    text-shadow: 1px 1px black;
+}
+.texte-intro-2{
+    padding: 0px 150px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: rgba(100, 99, 99, 0.55);
+    text-shadow: 1px 1px black;
+}
+.boutons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.agence, .rdv{
+    background-image: url(img/voyage.jpeg);
+    color: #e5a572;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 10px 0px black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+.boutons img{
+    color: blanchedalmond;
+}
+
+/*********SECTION 2**************/
+
+#section-2{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #e5a572;
+    text-shadow: 3px 3px black;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin-top: 80px;
+    font-size: 30px;
+    color: #e5a572;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+    text-shadow: 2px 2px black;
+    word-spacing: 12px;
+}
+p{
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Pacifico', cursive;
+    padding: 10px 50px;
+    color: cadetblue;
+    text-shadow: 1px 1px black;
+}
+#section-2 img{
+    height: 180px;
+    padding: 50px 50px;
+    margin-top: 40px;
+}
+#section-2 img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px 5px cadetblue;
+    border-radius: 20px;
+}
+
+/*********SECTION 3**************/
+
+#section-3{
+    margin-top: 100px;
+    background-image: url(img/fond.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 100px;
+    border-bottom: 5px solid #e5a572;
+    border-top: 5px solid #e5a572;
+}
+
+#section-3 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.texte-event{
+    color: rgba(100, 99, 99, 0.55);
+    text-shadow: 1px 1px black;
+    font-size: 30px;
+}
+h4{
+    text-align: start;
+    margin-left: 50px;
+    padding-top: 10px;
+    color: red;
+    text-shadow: 2px 1px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 30px;
+}
+
+/*********SECTION 4**************/
+
+#section-4 .col-lg-6{
+    text-align: -webkit-center;
+}
+
+#section-5 img{
+    position: relative;
+    z-index: 2;
+}
+.newsletter{
+    position: relative;
+    z-index: 1;
+}
+
+/*********FOOTER**************/
+footer{  
+    border-bottom: 5px solid #e5a572;
+    border-top: 5px solid #e5a572;
+    width: 100%;
+}
+.coordonées{
+    color: #e5a572;
+    text-shadow: 1px 1px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.liens-footer a{
+    color: rgba(0,0,0,.55);
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.liens-footer{
+    list-style-type: none;
+    align-items: center;
+}
+.carousel-inner-2{
+    overflow: hidden;
+}
+.boutons2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

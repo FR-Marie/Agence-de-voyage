@@ -1,0 +1,167 @@
+@media screen and (min-width:992px){
+    .titre-responsive{
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    /*****SECTION 1*****/
+
+    .btn-outline-success{
+        padding: 0;
+        margin: 0;
+    }
+    .form-control{
+        width: 30%;
+    }
+
+    .carousel-inner img{
+        margin: 75px;
+    }
+
+    /*****SECTION 2*****/
+    #section-2 img{
+        display: none;
+    }
+    #section-2 p{
+        display: none;
+    }
+    .titre-responsive a{
+        display: block;
+        text-decoration: none;
+    }
+    .titre-ecran-pc{
+        display: none;
+    }
+
+    /*****SECTION 3*****/
+    h2{
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    .col-lg-4{
+        
+        border-style: groove;
+    }
+    .titre-responsive:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        background-color: rgb(223, 221, 221);
+    }
+
+    /*****SECTION 4*****/
+    #section-4{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .carousel-inner img{
+        margin: 50px 0px;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 25px;
+    }
+
+    /*****SECTION 1*****/
+    .carousel-inner{
+        display: none;
+    }
+
+    /*****SECTION 3*****/
+    
+    #section-3 img{
+        width: 70%;
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    footer img{
+        margin: 15px;
+    }
+    .liens-footer{
+        text-align: center;
+    }
+    .boutons2{
+        justify-content: space-around;
+        padding: 5px 0;
+    }
+    .texte-intro, .texte-intro-2, .texte-event, .coordonées{
+        font-size: 15px;
+        text-align: center;
+        padding: 3px;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        padding: 0;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        padding: 40px 0;
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+        margin: 20px 0px;
+    }
+
+}
+@media screen and (max-width:360px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+        padding: 0;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        padding: 40px 0;
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+        margin: 20px 0px;
+    }
+    .texte-intro, .texte-intro-2, .texte-event, .coordonées{
+        font-size: 15px;
+        text-align: center;
+        padding: 3px;
+    }
+
+    #section-2{
+        padding: 5px;
+    }
+
+    #section-3{
+        padding: 15px;
+    }
+
+    footer img{
+        margin: 15px;
+    }
+    .liens-footer{
+        text-align: center;
+    }
+    .boutons2{
+        justify-content: space-around;
+        padding: 5px 0;
+    }
+}
